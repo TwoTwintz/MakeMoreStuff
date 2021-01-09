@@ -1,0 +1,14 @@
+-Refinery
+    Entrée 1 : Fumonium Piece , Entrée 2 : Liquid Plutocethylen
+    Sortie : Refined Fumonium
+
+    Interface :
+        2 Cases servant à mettre les deux ingredient,
+        Flamme qui brule vers la droite qui se rempli au fur et a mesure du raffinage
+        1 case servant a contenir le Refined Fumonium
+
+    Detail Technique :
+        Videos:
+            Series Turty Wurty:
+                Episode: [18,24,25,45]
+

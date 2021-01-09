@@ -1,0 +1,5 @@
+{
+  "variants": {
+    "": {"model" :  "twotwintzmod:block/test_block"}
+  }
+}

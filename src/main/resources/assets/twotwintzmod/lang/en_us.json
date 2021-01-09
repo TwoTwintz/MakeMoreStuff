@@ -1,0 +1,17 @@
+{
+  "item.twotwintzmod.test_item" : "Test Item",
+  "item.twotwintzmod.fumonium_piece" : "Fumonium Piece",
+  "item.twotwintzmod.refined_fumonium" : "Refined Fumonium",
+  "item.twotwintzmod.plutocethylen_bucket": "Plutocethylen Bucket",
+
+  "item.twotwintzmod.fumonium_sword": "Fumonium Sword",
+  "item.twotwintzmod.fumonium_pickaxe": "Fumonium Pickaxe",
+  "item.twotwintzmod.fumonium_axe": "Fumonium axe",
+  "item.twotwintzmod.fumonium_hoe": "Fumonium Hoe",
+  "item.twotwintzmod.fumonium_shovel": "Fumonium Shovel",
+
+  "block.twotwintzmod.liquid_plutocethylen": "Liquid Plutocethylen",
+  "block.twotwintzmod.refinery": "Refinery",
+
+  "itemgroup.twotwintzmod": "TwoTwintzMod"
+}

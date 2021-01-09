@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "X#",
+    "  ",
+    "  "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:coal"
+    },
+    "X": {
+      "item": "twotwintzmod:fumonium_piece"
+    }
+  },
+  "result": {
+    "item": "twotwintzmod:fumonium_fuel"
+  }
+}
