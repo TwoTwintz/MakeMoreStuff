@@ -13,5 +13,8 @@
   "block.twotwintzmod.liquid_plutocethylen": "Liquid Plutocethylen",
   "block.twotwintzmod.refinery": "Refinery",
 
+  "block.twotwintzmod.rice_crop": "Rice seeds",
+  "block.twotwintzmod.black_rice_crop": "Black Rice seeds",
+
   "itemgroup.twotwintzmod": "TwoTwintzMod"
 }

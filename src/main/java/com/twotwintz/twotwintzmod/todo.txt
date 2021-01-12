@@ -12,3 +12,8 @@
             Series Turty Wurty:
                 Episode: [18,24,25,45]
 
+-foods
+    -black/white rice
+        -knife
+            -crop : rice, black rice, onion
+

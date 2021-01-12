@@ -1,9 +1,12 @@
 package com.twotwintz.twotwintzmod;
 
+import com.twotwintz.twotwintzmod.init.InitBlocks;
 import com.twotwintz.twotwintzmod.init.InitContainerTypes;
 import com.twotwintz.twotwintzmod.init.InitEntities;
 import com.twotwintz.twotwintzmod.init.InitFluids;
 import com.twotwintz.twotwintzmod.ores.OreGeneration;
+import net.minecraft.client.renderer.RenderType;
+import net.minecraft.client.renderer.RenderTypeLookup;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
@@ -42,6 +45,9 @@ public class TwoTwintzMod
     private void clientSetup(final FMLClientSetupEvent event)
     {
         LOGGER.info("Hello from client setup event");
+        RenderTypeLookup.setRenderLayer(InitBlocks.rice_crop, RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(InitBlocks.black_rice_crop, RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(InitBlocks.onion_crop, RenderType.getCutout());
     }
 
 

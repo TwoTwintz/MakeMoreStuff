@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "X#",
+    "YZ",
+    "  "
+  ],
+  "key": {
+    "#": {
+      "item": "twotwintzmod:onion_crop"
+    },
+    "X": {
+      "item": "twotwintzmod:rice"
+    },
+    "Y": {
+      "item": "twotwintzmod:black_rice"
+    },
+    "Z": {
+      "item": "twotwintzmod:machete"
+    }
+  },
+  "result": {
+    "item": "twotwintzmod:mixed_rice_and_onion"
+  }
+}

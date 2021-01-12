@@ -1,0 +1,11 @@
+{
+  "parent": "block/crop",
+  "textures": {
+    "crop": "twotwintzmod:block/black_rice_stage5"
+  }
+}
+
+
+
+
+

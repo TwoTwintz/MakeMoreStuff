@@ -6,14 +6,13 @@ import com.twotwintz.twotwintzmod.items.ModBucketItem;
 import com.twotwintz.twotwintzmod.items.ModItems;
 import com.twotwintz.twotwintzmod.items.armor.ModArmor;
 import com.twotwintz.twotwintzmod.items.armor.ModArmorMaterial;
+import com.twotwintz.twotwintzmod.items.food.ModFood;
 import com.twotwintz.twotwintzmod.items.specialitems.BurnItem;
 import com.twotwintz.twotwintzmod.items.tools.*;
 import com.twotwintz.twotwintzmod.items.tools.ModSword;
 import net.minecraft.inventory.EquipmentSlotType;
-import net.minecraft.item.BucketItem;
-import net.minecraft.item.Item;
-import net.minecraft.item.ItemGroup;
-import net.minecraft.item.Items;
+import net.minecraft.item.*;
+import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
@@ -29,6 +28,15 @@ public class InitItems
     //Basic items
     public static ModItems fumonium_piece;
     public static ModItems refined_fumonium;
+    public static ModItems machete;
+
+    //Plant
+    public static ModFood rice;
+    public static ModFood black_rice;
+    public static ModFood onion;
+
+    //Food
+    public static ModFood mixed_rice_and_onion;
 
     //Bucket
     public static BucketItem plutocethylen_bucket;
@@ -57,9 +65,18 @@ public class InitItems
         //Basics items
         fumonium_piece = new ModItems(64, group, "fumonium_piece");
         refined_fumonium = new ModItems(1, group, "refined_fumonium");
+        machete = new ModItems(1, group, "machete");
 
         //Fuels
         fumonium_fuel = new BurnItem("fumonium_fuel", group, 16, 3200);
+
+        //Plants
+        rice = new ModFood("rice",64,group, 1, 0);
+        black_rice = new ModFood("black_rice",64,group, 1, 0);
+
+        //Food
+        mixed_rice_and_onion = new ModFood("mixed_rice_and_onion", 64, group, 8, 4);
+
 
         //Tools
         fumonium_sword = new ModSword("fumonium_sword", ModItemTier.FUMONIUM, group);
